@@ -47,3 +47,26 @@ h1 {
   font-weight: var(--text-font-weight);
   color: var(--text-primary-color);
 }
+
+div {
+  width: 32%;
+  height: 200px;
+  display: inline-block;
+  background-color: var(--background-secondary-color);
+  text-align: center;
+}
+
+
+div div {
+  width: 32%;
+  height: 100%;
+  display: inline-block;
+  background-color: red;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+}

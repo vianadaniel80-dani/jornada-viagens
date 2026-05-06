@@ -21,21 +21,23 @@
   --text-secondary-color: #ffffff;
 }
 
-/* eric meyer's reset, 2.0 - Reset CSS*/
-html,
+/* CSS RESET */
 body,
-div,
-span,
+img,
 h1,
-h2,
-h3,
 p,
-a,
-ul,
-li {
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }

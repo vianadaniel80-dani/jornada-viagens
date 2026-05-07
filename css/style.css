@@ -1,45 +1,7 @@
-@font-face {
-  font-family: "Montserrat";
-  src: url(../font/Montserrat-VariableFont_wght.ttf);
-}
+@import url("global.css");
+@import url("header.css");
 
-:root {
-
-  --title-font-weight: 700;
-  --menu-text-font-weight: 500;
-  --text-font-weight: 400;
-
-  --button-primary-color: #8F0101;
-  --button-secondary-color: #B81515;
-
-  --background-primary-color: #FFFFFF;
-  --background-secondary-color: #F5F5F5;
-  --background-tertiary-color: #000000;
-
-  --text-primary-color: #222222;
-  --text-secondary-color: #FFFFFF;
-
-}
-
-/* eric meyer's reset, 2.0 - Reset CSS*/
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-p,
-a,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
+/* Estilização */
 h1 {
   font-family: "Montserrat";
   font-weight: var(--text-font-weight);

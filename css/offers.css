@@ -1,0 +1,36 @@
+.card {
+  background-color: black;
+  padding: 0;
+  height: 312px;
+  width: 288px;
+  color: var(--text-secondary-color);
+
+}
+
+.card-article header {
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  display: block;
+}
+
+.card-article p {
+  font-weight: var(--text-primary-color);
+}
+
+.card-article p, a {
+  font-size: 20px;
+}
+
+.card-article h3 {
+  margin-top: 8px 0 0;
+  font-size: 40px;
+  font-weight: var(--text-primary-color);
+}
+
+.card-article span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
+}
+

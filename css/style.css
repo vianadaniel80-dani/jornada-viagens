@@ -2,10 +2,4 @@
 @import url("header.css");
 @import url("hero.css");
 @import url("offers.css");
-
-/* Estilização */
-h1 {
-  font-family: "Montserrat";
-  font-weight: var(--text-font-weight);
-  color: var(--text-primary-color);
-}
+@import url("category.css");

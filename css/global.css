@@ -42,9 +42,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Estilização */
+h1 {
+  font-family: "Montserrat";
+  font-weight: var(--text-font-weight);
+  color: var(--text-primary-color);
+}
+
 .section-title h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
   color: var(--text-primary-color);
   font-weight: var(--title-font-weight);
 }
